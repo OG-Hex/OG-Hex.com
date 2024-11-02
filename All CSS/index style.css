@@ -1,0 +1,189 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a; /* Dark theme */
+    color: #00e6e6; /* Neon cyan text */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #151515; /* Dark header */
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #00ffff;
+    font-size: 38px;
+    margin-left: 20px;
+}
+
+.logo-img {
+    height: 70px;
+    width: 90px;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00e6e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome {
+    color: #00e6e6;
+}
+
+.welcome h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.welcome-section {
+    background-color: #000000;
+    padding: 30px;
+    color: #00ffcc;
+    border: 2px solid #333;
+}
+
+.welcome-section h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.top-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.top img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.top img:hover {
+    transform: scale(1.05);
+}
+
+.footer-bottom {
+    background: #151515;
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.btn-result, .btn-game {
+    background-color: #00cc99;
+    border: 1px solid #00cc99;
+    color: #000000;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-result:hover, .btn-game:hover {
+    background-color: #009977;
+    color: #ffffff;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+/* Additional Styles for Quick Links and Contact Info */
+.info-container {
+    display: flex;
+    justify-content: space-evenly; /* Aligns quick links and contact info to the sides */
+    margin-top: 30px;
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 30px auto; /* Center the container */
+}
+
+.quick-links, .contact-info {
+    background: rgba(0, 128, 128, 0.7); /* Teal background for the sections */
+    color: #fff; /* White text color */
+    padding: 20px; /* Padding inside the sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 183, 255, 0.5); /* Soft blue shadow */
+    width: 48%; /* Make sections take up nearly half the container */
+}
+
+.quick-links h2, .contact-info h2 {
+    margin-bottom: 15px; 
+    color: black;/* Space between title and content */
+}
+
+.quick-links ul, .contact-info p {
+    list-style: none; /* Remove bullet points */
+    color: #00ffff;
+}
+
+.quick-links ul li, .contact-info p {
+    margin: 10px 0; /* Space between items */
+}
+
+.quick-links a, .contact-info a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* No underline */
+    background-color: rgb(247, 0, 255);
+}
+
+.quick-links a:hover, .contact-info a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+.footer-bottom {
+    text-align: center; /* Center the copyright text */
+    font-size: 10px; /* Smaller font size */
+    background-color: #004d40; /* Darker teal for footer */
+    color: #ffffff;
+    padding: 10px 0; /* Padding for footer */
+    margin-top: 30px; /* Added margin to the top of footer */
+}
+

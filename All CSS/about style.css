@@ -1,0 +1,142 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; /* Light blue background for ocean feel */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    background: #006064; /* Teal background for the header */
+    color: #fff;
+    padding: 10px 20px; /* Add padding for spacing */
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Result Button Style */
+.btn-result {
+    background-color: #00bcd4; /* Bright cyan for buttons */
+    border: 2px solid #00acc1; /* Darker cyan for borders */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for the button look */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Make the text bold */
+    text-align: center;
+}
+
+/* Hover effect for the result button */
+.btn-result:hover {
+    background-color: #0097a7; /* Darker cyan hover effect */
+    border-color: #00838f; /* Darker border on hover */
+}
+
+/* Ensure buttons are clickable */
+.btn-result:active {
+    transform: scale(0.98); /* Button click effect */
+}
+
+nav ul li a.btn-result {
+    background-color: #00bcd4; /* Same color for result button */
+}
+
+nav ul li a.btn-result:hover {
+    background-color: #0097a7; /* Hover effect for result button */
+}
+
+/* About Section Styling */
+.about-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8); /* White with transparency for ocean feel */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 183, 255, 0.2); /* Soft blue shadow */
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #007bff; /* Blue color for the heading */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #ff6347; /* Accent color for subheadings */
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px;
+    }
+
+    .about-section h1 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+}
+
+.footer-bottom {
+    text-align: center; /* Center the copyright text */
+    font-size: 10px; /* Smaller font size */
+    background-color: #004d40; /* Darker teal for footer */
+    color: #ffffff;
+    padding: 10px 0; /* Padding for footer */
+}

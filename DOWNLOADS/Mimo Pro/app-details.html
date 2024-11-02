@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Ocean Gamers - APK Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main Header Section -->
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Ocean Gamers Logo" class="logo-img">
+            <h1 class="site-title">OCEAN GAMERS</h1>
+        </div>
+    </header>
+
+    <!-- App Details Section -->
+    <main class="app-details-page">
+        <section class="app-header">
+            <img src="Mimo Pro.webp" alt="App Icon" class="app-icon">
+            <div class="app-info">
+                <h2>Mimo Pro</h2>
+                <p><strong>Developer:</strong> Duolingo </p>
+                <p><strong>Updated:</strong> October 22, 2024</p>
+                <p><strong>Size:</strong> 21.12 MB</p>
+                <p><strong>Requirements:</strong>Android 10+ Requirements</p>
+                <p><strong>Rating:</strong> ⭐ 4.6 (80,126,428 votes)</p>
+            </div>
+        </section>
+
+        <!-- Download Button and Read Details -->
+        <div class="download-details">
+            <div class="download-button-container">
+                <a href="https://www.mediafire.com/file/j67oabu4u8cfh89/Mimo_Pro_v4.53_-__OCEAN_GAMERS.apk/file" class="download-button">Download APK</a>
+            </div>
+        </div>
+
+        <!-- Social Sharing Links -->
+        <div class="social-share">
+            <a href="#">Telegram</a> | <a href="">instagram</a> | <a href="https://t.me/Oceangamers">Telegram</a> | <a href="#">WhatsApp</a>
+        </div>
+
+        <!-- App Description -->
+        <section class="app-description">
+            <!-- Note Section -->
+     <div class="note-section" style="background-color: #000000; border-left: 5px solid #00f853; padding: 10px; margin-bottom: 20px;">
+        <strong>MODE</strong><br>
+        ✅ Resources unlocked<br>
+        ✅ Premium features unlocked<br>
+        ✅️ All projects unlocked<br>
+     </div>
+            <h3>Description</h3>
+            <h4>🔥 About Mimo Pro for Android</h4>
+            <div id="more-description" style="display: none;">
+                <p>**Join over 5 million learners** and start coding, building apps, games, websites, automating tasks, advancing your career, and more—regardless of your experience level or time constraints!</p> <p>**Mimo Pro** creates a personalized curriculum tailored to your daily routine, filled with engaging exercises, projects, and challenges that keep you motivated.</p> <h4>👉 With Mimo Pro APK, you can master:</h4> <ul> <li>Programming from scratch</li> <li>App development</li> <li>Game development</li> <li>Website creation</li> <li>Task automation</li> <li>And much more</li> </ul> <p>These skills include essential programming languages such as:</p> <ul> <li>Python</li> <li>HTML</li> <li>CSS</li> <li>JavaScript</li> <li>SQL</li> <li>Command line basics</li> </ul> <p>**Mimo Pro** is the most flexible and personalized way to learn coding with a busy schedule. Track your progress, earn achievements and badges, and join a vibrant community of over 4 million learners.</p> <p>Download **Mimo Pro APK** for Android completely free and start your coding journey today!</p>
+            </div>
+            <a href="javascript:void(0);" id="toggle-description" onclick="toggleDescription()">Show More</a>
+        </section>
+
+        <!-- Screenshots Gallery -->
+        <section class="app-screenshots">
+            <h3>Screenshots</h3>
+            <div class="screenshots-container">
+                <button class="scroll-arrow left" onclick="scrollLeft()">❮</button>
+                <div class="screenshots-grid">
+                    <img src="ss1.png" alt="Screenshot 1">
+                    <img src="ss2.png" alt="Screenshot 2">
+                    <img src="ss3.png" alt="Screenshot 3">
+                    <img src="ss4.png" alt="Screenshot 4">
+                    <img src="ss5.png" alt="Screenshot 5">
+                </div>
+                <button class="scroll-arrow right" onclick="scrollRight()">❯</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 OCEAN GAMERS. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function scrollLeft() {
+            const container = document.querySelector('.screenshots-grid');
+            container.scrollBy({ left: -300, behavior: 'smooth' });
+        }
+
+        function scrollRight() {
+            const container = document.querySelector('.screenshots-grid');
+            container.scrollBy({ left: 300, behavior: 'smooth' });
+        }
+
+        function toggleDescription() {
+            const moreDescription = document.getElementById('more-description');
+            const toggleLink = document.getElementById('toggle-description');
+
+            if (moreDescription.style.display === "none") {
+                moreDescription.style.display = "block";
+                toggleLink.textContent = "Show Less"; // Change link text
+            } else {
+                moreDescription.style.display = "none";
+                toggleLink.textContent = "Show More"; // Change link text back
+            }
+        }
+    </script>
+
+
+</body>
+</html>
