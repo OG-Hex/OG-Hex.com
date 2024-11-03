@@ -118,11 +118,15 @@ header {
 }
 
 /* App Description */
-.app-description h3,
-.app-screenshots h3 {
+.app-description h3  {
     font-size: 1.8rem;
     color: #00d9ff;
     margin-bottom: 15px;
+}
+.app-screenshots h3 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .app-description h4 {
@@ -131,15 +135,8 @@ header {
     margin-top: 10px;
 }
 
-.app-description p,
-.app-description ul {
-    color: #cce7ff;
-    line-height: 1.6;
-    margin: 10px 0;
-}
-
 #toggle-description {
-    color: #00b7ff;
+    color: #00ffc8;
     text-decoration: underline;
     cursor: pointer;
 }

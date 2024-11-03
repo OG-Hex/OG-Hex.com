@@ -8,21 +8,24 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #e0f7fa; /* Light blue background for ocean feel */
-    color: #333;
+    background-color: #0f0f1f; /* Dark ocean-inspired background */
+    color: #ffffff;
 }
 
+/* Header */
 header {
     display: flex;
-    justify-content: space-between; /* Space between logo and nav */
-    align-items: center; /* Center items vertically */
-    background: #006064; /* Teal background for the header */
-    color: #fff;
-    padding: 10px 20px; /* Add padding for spacing */
+    justify-content: space-between;
+    align-items: center;
+    background: #1a1a3d;
+    color: #00ffff;
+    padding: 10px 20px;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
-
-header .logo h1 {
-    margin: 0;
+.title {
+    color: cyan;
+    font-size: 38px;
+    margin-left: 30px;
 }
 
 nav ul {
@@ -33,17 +36,18 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
-    color: #fff; /* White color for links */
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+    transition: background 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+    background-color: #3333ff;
 }
 
 /* Result Button Style */
